@@ -1,11 +1,11 @@
 /*Default Colors*/
 /* Color Scheme */
 .navbar-header {
+  background-image: url('../img/sc_logo.png');
   width: 300px;
   height: 200px;
   background-size: 250px;
   background-repeat: no-repeat;
-  background-image: url('../img/sc_logo.png');
 }
 .navbar-header h1 {
   text-indent: -9999px;
