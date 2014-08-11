@@ -6,9 +6,14 @@
   height: 200px;
   background-size: 250px;
   background-repeat: no-repeat;
+  margin: auto;
+  float: none;
 }
 .navbar-header h1 {
   text-indent: -9999px;
+}
+#logo-container {
+  margin: auto;
 }
 body {
   width: 100%;
