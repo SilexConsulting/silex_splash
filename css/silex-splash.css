@@ -218,11 +218,16 @@ a:focus {
   width: 50%;
   margin-bottom: 20px;
 }
+.register-panel {
+  background-color: #d5ebff;
+  padding: 15px;
+  width: 50%;
+  border: 3px solid #318ad9;
+  border-radius: 5px;
+  color: #318ad9;
+}
 .form-control {
   margin-bottom: 12px;
-}
-label {
-  display: block;
 }
 .btn {
   text-transform: uppercase;
