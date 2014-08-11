@@ -138,28 +138,6 @@ a:focus {
 
  // Full Page Image Intro Section
 
- .intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: @light;
-     background-image: url('../img/pokugara-logo-text.png');
-     background-repeat: no-repeat;
-     background-position: center 100px;
-     background-size: 400px ;
-
-
-     background-color: @bg-colour;
-}
-
-.intro-body {
-    display: table-cell;
-    vertical-align: middle;
-
-}
-
 .brand-heading {
     color: @bg-colour;
     white-space: nowrap;
@@ -167,18 +145,7 @@ a:focus {
     margin-top:-100px;
 }
 
-.intro-text {
-    font-size: 20px;
-    margin-top: 270px;
-}
-
 @media(min-width:767px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-        background-size: 700px 350px;
-        background-position: center 100px;
-    }
 
     .brand-heading {
         color: @bg-colour;
@@ -186,23 +153,9 @@ a:focus {
         overflow: hidden;
         margin-top: -60px;
     }
-    .intro-text {
-        font-size: 25px;
-        margin-top:500px;
-    }
-    .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-    }
 }
 
 @media(max-width:480px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-        background-size: 200px 100px;
-        background-position: center 100px;
-    }
 
     .navbar-brand{
     font-size:16px;
@@ -213,14 +166,6 @@ a:focus {
              overflow: hidden;
              margin-top: -160px;
          }
-    .intro-text {
-        font-size: 18px;
-        margin-top:350px;
-    }
-    .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-    }
 }
 
 .btn-circle {
@@ -245,26 +190,8 @@ a:focus {
     background: rgba(255,255,255,0.1);
 }
 
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
 @-webkit-keyframes pulse {
-    0 {
+    0% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
@@ -281,7 +208,7 @@ a:focus {
 }
 
 @-moz-keyframes pulse {
-    0 {
+    0% {
         -moz-transform: scale(1);
         transform: scale(1);
     }
