@@ -4,11 +4,21 @@
   background-image: url('../img/sc_logo.png');
   width: 300px;
   height: 200px;
-  background-size: 250px;
+  background-size: 200px;
   background-repeat: no-repeat;
+  margin: auto;
+  float: none;
 }
 .navbar-header h1 {
   text-indent: -9999px;
+}
+#logo-container {
+  margin: auto;
+  position: relative;
+  background-color: #d5ebff;
+  background-position: 20%;
+  height: auto;
+  width: 100%;
 }
 body {
   width: 100%;
@@ -277,6 +287,7 @@ body {
 }
 #footer {
   text-align: center;
-  font-color: #7d766b;
+  color: #7d766b;
   font-size: 15px;
+  padding: 25px;
 }
