@@ -10,29 +10,26 @@ use Guzzle\Http\Client;
 
 $client = new Client();
 
-$request = $client->post('https://script.google.com/macros/s/AKfycbxBodnzSduWj3ah55EFIziHgJitPvOmBNfbfb45fpe_Pjcmf_5f/exec')
-    ->setPostField('name', $name)
+$request = $client->post('https://script.google.com/macros/d/MRlqlSWhYpttFwA8eAwPPe12tz4iPQq8U/exec')
     ->setPostField('email', $email)
-    ->setPostField('tel', $tel)
     ->setPostField('timestamp', date("d/m/Y H:i:s"));
 
 $response = $request->send();
 
 echo $response->getStatusCode();
 
-//Sent to $email variable
+// Sent to $email variable
 
-$subject = 'Thank you for your Interest';
+$subject = 'Thank you for your interest';
 
 $message = '
 <html>
 <head>
-  <title>Thank you for registering your interest with Pokugara Residential Estate.</title>
+  <title>Thank you for registering your interest in Silex Consulting.</title>
 </head>
 <body>
-  <p>You will be the first to know about any news or events at Pokugara.</p>
-  <p>Follow us on Twitter. <a href="http://twitter.com/pokugara">CLICK HERE</a></p>
-  <p>Check out our Facebook page. <a href="http://facebook.com/pokugara">CLICK HERE</a> </p>
+  <p>You will be the first to know any news about Silex Consulting.</p>
+  <p>Follow us on Twitter. <a href="http://twitter.com/silexconsulting">CLICK HERE</a></p>
 </body>
 </html>
 ';
@@ -42,7 +39,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 // Additional headers
-$headers .= 'From: Pokugara Residential Estate <donotreply@pokugara.co.zw>' . "\r\n";
+$headers .= 'From: Silex Consulting <donotreply@silex-consulting.co.uk>' . "\r\n";
 
 // Mail it
 mail($email, $subject, $message, $headers);
