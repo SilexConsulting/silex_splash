@@ -215,6 +215,9 @@ a:focus {
     margin-top: 250px;
   }
 }
+input#form-element-email {
+  width: 50%;
+}
 section#register {
   position: fixed;
   opacity: 0.8;
