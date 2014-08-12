@@ -25,7 +25,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Redressed", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #d5ebff;
   background-color: #d5ebff;
 }
@@ -78,7 +78,7 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Redressed", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background-color: #d5ebff;
 }
 .navbar-brand {
@@ -245,7 +245,7 @@ section#register {
 }
 .btn {
   text-transform: uppercase;
-  font-family: "Redressed", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
