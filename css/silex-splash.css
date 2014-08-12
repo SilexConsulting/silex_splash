@@ -25,7 +25,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Redressed", Helvetica, Arial, sans-serif;
   color: #d5ebff;
   background-color: #d5ebff;
 }
@@ -41,7 +41,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -78,7 +78,7 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Redressed", Helvetica, Arial, sans-serif;
   background-color: #d5ebff;
 }
 .navbar-brand {
@@ -215,25 +215,37 @@ a:focus {
     margin-top: 250px;
   }
 }
+input#form-element-email {
+  width: 50%;
+}
+section#register {
+  position: fixed;
+  opacity: 0.8;
+  z-index: 1;
+  width: 100%;
+}
 #register-form {
   margin: auto;
-  width: 50%;
+  width: auto;
+  padding: 20px;
   margin-bottom: 20px;
 }
 .register-panel {
   background-color: #d5ebff;
   padding: 15px;
-  width: 50%;
   border: 2px solid #318ad9;
   border-radius: 5px;
   color: #318ad9;
+  margin: auto;
+  float: center;
+  max-width: 500px;
 }
 .form-control {
   margin-bottom: 12px;
 }
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Redressed", Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -295,6 +307,6 @@ body {
 #footer {
   text-align: center;
   color: #7d766b;
-  font-size: 15px;
+  font-size: 20px;
   padding: 25px;
 }
