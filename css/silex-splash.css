@@ -227,6 +227,14 @@ section#register {
   z-index: 1;
   width: 100%;
 }
+section#thanks {
+  position: fixed;
+  opacity: 0.8;
+  z-index: 3;
+  width: 100%;
+  color: #318ad9;
+  padding-top: 400px;
+}
 #register-form {
   margin: auto;
   width: auto;
