@@ -31,7 +31,7 @@ $(document).ready(function () {
             type: "post",
             data: serializedData,
             success: function(){
-                $('#register-form').fadeOut( 1600, function () {
+                $('.register-panel').fadeOut( 1600, function () {
                     $("#thanks").removeClass('hidden');
                 });
             },
