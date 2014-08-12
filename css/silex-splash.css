@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   margin: auto;
   float: none;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 .navbar-header h1 {
   text-indent: -9999px;
@@ -216,7 +217,9 @@ a:focus {
   }
 }
 input#form-element-email {
-  width: 50%;
+  width: 70%;
+  margin-right: 1em;
+  border: 1px solid #318ad9;
 }
 section#register {
   position: fixed;
@@ -234,14 +237,18 @@ section#register {
   background-color: #d5ebff;
   padding: 15px;
   border: 2px solid #318ad9;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   color: #318ad9;
   margin: auto;
   float: center;
   max-width: 500px;
 }
+.register-panel p {
+  margin-left: 10px;
+}
 .form-control {
-  margin-bottom: 12px;
+  display: inline;
 }
 .btn {
   text-transform: uppercase;
@@ -250,25 +257,6 @@ section#register {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-.btn-default {
-  border: 1px solid #318ad9;
-  color: #318ad9;
-  background-color: transparent;
-}
-.btn-default:hover,
-.btn-default:focus {
-  border: 1px solid #318ad9;
-  outline: none;
-  color: #d5ebff;
-  background-color: #318ad9;
-}
-.btn-huge {
-  padding: 25px;
-  font-size: 26px;
-}
-.banner-social-buttons {
-  margin-top: 0;
 }
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
